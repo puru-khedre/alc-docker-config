@@ -25,7 +25,7 @@ WORKDIR /moqui-framework
 RUN echo "org.gradle.daemon=false" | tee -a gradle.properties
 
 RUN cp runtime/component/alc-docker-config/docker/MoquiProductionConf.xml runtime/conf/
-
+RUN cp runtime/component/alc-docker-config/docker/mysql-connector-j-8.0.33.jar runtime/lib
 RUN git apply runtime/component/artifactLifeCycle/patches/ElasticDatasourceFactory.patch
 
 # Create WAR file and extract it
