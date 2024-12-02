@@ -15,8 +15,8 @@
     <default-property name="entity_ds_database" value="moqui"/>
     <default-property name="entity_ds_database_configuration" value="moqui_configuration"/>
 
-    <default-property name="webapp_http_host" value=""/>
-    <default-property name="webapp_http_port" value="80"/>
+    <!-- <default-property name="webapp_http_host" value=""/> -->
+    <!-- <default-property name="webapp_http_port" value="80"/> -->
     <default-property name="webapp_https_port" value="443"/>
     <default-property name="webapp_https_enabled" value="false"/>
 
